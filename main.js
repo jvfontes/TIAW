@@ -29,7 +29,7 @@ const readClient = () => getLocalStorage()
 
 const createClient = (client) => {
     const dbClient = getLocalStorage()
-    dbClient.push (client)
+    dbClient.push(client)
     setLocalStorage(dbClient)
 }
 
